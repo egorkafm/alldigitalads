@@ -1,0 +1,14 @@
+.rightBlock {
+  width: 60%;
+  padding: 2rem;
+}
+
+.links-list {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .rightBlock {
+    width: 100%;
+  }
+}

@@ -1,0 +1,146 @@
+.phoneWrapper {
+  padding: 1rem 2rem;
+  width: 40%;
+}
+
+.phoneWrapper.hideOnMobile {
+  display: none;
+}
+
+.phoneContent.phoneBackground {
+  width: 100%;
+  max-width: 400px;
+  aspect-ratio: 9 / 18;
+  background-image: url('../../assets/images/mob.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.phoneContent.colorBackground {
+  width: 100%;
+  max-width: 400px;
+  aspect-ratio: 9 / 18;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.phoneScreen {
+  width: 80%;
+  text-align: center;
+  margin-top: 30%;
+  overflow-wrap: break-word;
+}
+
+.profileImageWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.profileImage {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.circle {
+  max-width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background: #EEEEEE;
+  margin: 0 auto 1rem auto;
+}
+
+.profileName {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #333;
+  margin-top: 0.5rem;
+}
+
+.profileEmail {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.titleSkeleton {
+  max-width: 9rem;
+  height: 0.8rem;
+  border-radius: 1rem;
+  background: #EEEEEE;
+  margin: 1rem auto;
+}
+
+.subTitleSkeleton {
+  max-width: 4rem;
+  height: 0.5rem;
+  border-radius: 1rem;
+  background: #EEEEEE;
+  margin: 0.5rem auto 1rem auto;
+}
+
+.skeleton {
+  width: 90%;
+  margin: 5rem auto 0 auto;
+}
+
+.skeleton-rect {
+  width: 100%;
+  height: 3rem;
+  background-color: #EEEEEE;
+  border-radius: 6px;
+  margin: 1rem 0;
+}
+
+.linksWrapper {
+  margin-top: 3rem;
+  padding: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  overflow: scroll;
+}
+
+.link {
+  width: 100%;
+  background: #EEEEEE;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+}
+
+@media (min-width: 768px) {
+  .phoneWrapper.hideOnMobile {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .linksWrapper {
+    max-height: 26rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .phoneScreen {
+    margin-top: 25%;
+  }
+  .linksWrapper {
+    max-height: 21rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .linksWrapper {
+    margin-top: 1rem;
+    max-height: 12rem;
+  }
+}
+

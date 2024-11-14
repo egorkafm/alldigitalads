@@ -1,0 +1,27 @@
+.Header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: #FFFFFF;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.previewPhoneWrapper {
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 10rem;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.previewPhoneWrapper .phoneScreen {
+  margin-top: 4rem;
+}
+
+.previewPhoneWrapper .linksWrapper {
+  max-height: 21rem;
+}
